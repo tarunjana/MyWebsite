@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Tarun Jana</title>
+    <link>http://www.tarunjana.in/tags/hugo/</link>
+    <description>Recent content in Hugo on Tarun Jana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 25 Jan 2021 20:37:54 +0530</lastBuildDate><atom:link href="http://www.tarunjana.in/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I Love Hugo?</title>
+      <link>http://www.tarunjana.in/posts/others/why-i-love-hugo/</link>
+      <pubDate>Mon, 25 Jan 2021 20:37:54 +0530</pubDate>
+      
+      <guid>http://www.tarunjana.in/posts/others/why-i-love-hugo/</guid>
+      <description>I needed a blog for myself. My requirements were pretty straight-forward: A static site generator with flexibility and speed.
+I had a little bit of experience with Jekyll. Since I was not familiar with the Ruby programming language, it was quite overwhelming for me. I could go with Gatsby, Next, Gridsome, 11ty, and all these SSG written in JavaScript. But again, I was not a JavaScript developer to deal with these.</description>
+    </item>
+    
+  </channel>
+</rss>
