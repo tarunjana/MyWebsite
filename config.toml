@@ -8,6 +8,7 @@ defaultContentLanguage = "en"
 
 paginate = 20
 publishDir = "docs"
+enableRobotsTXT = true
 
 pygmentsStyle = "b2"
 pygmentsCodeFences = true
