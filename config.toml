@@ -7,6 +7,7 @@ languageCode = "en"
 defaultContentLanguage = "en"
 
 paginate = 20
+publishDir = "docs"
 
 pygmentsStyle = "b2"
 pygmentsCodeFences = true

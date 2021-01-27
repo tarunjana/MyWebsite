@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://www.tarunjana.in/authors/</loc>
+    <lastmod>2021-01-25T20:37:54+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.tarunjana.in/tags/hugo/</loc>
+    <lastmod>2021-01-25T20:37:54+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.tarunjana.in/tags/others/</loc>
+    <lastmod>2021-01-25T20:37:54+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.tarunjana.in/posts/</loc>
+    <lastmod>2021-01-25T20:37:54+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.tarunjana.in/tags/</loc>
+    <lastmod>2021-01-25T20:37:54+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.tarunjana.in/authors/tarun-jana/</loc>
+    <lastmod>2021-01-25T20:37:54+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.tarunjana.in/</loc>
+    <lastmod>2021-01-25T20:37:54+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.tarunjana.in/posts/others/why-i-love-hugo/</loc>
+    <lastmod>2021-01-25T20:37:54+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.tarunjana.in/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.tarunjana.in/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.tarunjana.in/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.tarunjana.in/series/</loc>
+  </url>
+  
+</urlset>
