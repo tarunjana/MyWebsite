@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Tarun Jana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 Jan 2021 20:37:54 +0530</lastBuildDate><atom:link href="http://www.tarunjana.in/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Feb 2021 11:45:22 +0530</lastBuildDate><atom:link href="http://www.tarunjana.in/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Primality Test in C Language</title>
+      <link>http://www.tarunjana.in/posts/programming/c/primality-test-in-c-language/</link>
+      <pubDate>Thu, 04 Feb 2021 11:45:22 +0530</pubDate>
+      
+      <guid>http://www.tarunjana.in/posts/programming/c/primality-test-in-c-language/</guid>
+      <description>Prime numbers are of special interest. These are the natural numbers that are divisible by $1$ and itself. For example $2, 3, 5, 7, 11,$ and so on. Let us create a C program that checks the primality of a given natural number.
+Mathematical ApproachThere are many algorithms available to check primality of a natural number. But we&amp;rsquo;ll go with the most intuitive one. Of course, this is not the best and is not optimized for production usage 1.</description>
+    </item>
+    
     <item>
       <title>Why I Love Hugo?</title>
       <link>http://www.tarunjana.in/posts/others/why-i-love-hugo/</link>

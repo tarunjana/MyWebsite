@@ -2914,6 +2914,33 @@ h6 {
   font-weight: 700;
   color: #000;
   margin: 6.4rem 0 3.2rem 0; }
+  h1:hover .heading-link,
+  h2:hover .heading-link,
+  h3:hover .heading-link,
+  h4:hover .heading-link,
+  h5:hover .heading-link,
+  h6:hover .heading-link {
+    visibility: visible; }
+  h1 .heading-link,
+  h2 .heading-link,
+  h3 .heading-link,
+  h4 .heading-link,
+  h5 .heading-link,
+  h6 .heading-link {
+    color: #1565c0;
+    font-weight: inherit;
+    text-decoration: none;
+    font-size: 80%;
+    visibility: hidden; }
+  h1 .title-link,
+  h2 .title-link,
+  h3 .title-link,
+  h4 .title-link,
+  h5 .title-link,
+  h6 .title-link {
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: none; }
 
 h1 {
   font-size: 3.2rem;

@@ -23,7 +23,7 @@ Here are some features that I use most:
 
 A simple C++ code printing `Hello World!` in the terminal.
 
-{{< highlight cpp "linenos=table,hl_lines=2-3 5,linenostart=1" >}}
+{{< highlight cpp "linenos=table, hl_lines=2-3 5, linenostart=1" >}}
 #include<iostream>
 
 int main(){
