@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bengali.css">
+    <!-- Dark Mode -->
+    <style>
+        body.dark {
+            --bg-color: #000;
+            --bg-secondary-color: #131316;
+            --font-color: #f5f5f5;
+            --color-grey: #ccc;
+            --color-darkGrey: #777;
+        }
+    </style>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico" type="image/x-icon">
+    <title>তরুণ জানা</title>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <header class="container">
+        <nav class="nav">
+            <div class="nav-left">
+                <a class="brand" href="/bengali/">তরুণ জানা<span class="rectangle blink"></span></a>
+            </div>
+            <div class="nav-right">
+                <div class="tabs">
+                    <a href="/bengali/about">পরিচয়</a>
+                    <a href="/bengali/contact">যোগাযোগ</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <hr>
+    <!-- Intro -->
+    <section class="is-horizontal-align container">
+        <div class="card">
+            <header class="text-center">
+                <h1>নমস্কার!</h1>
+            </header>
+            <p class="text-justify">আমি তরুণ কুমার জানা, একজন সামান্য কলমচি। আমার বাংলা ব্লগে আপনাকে স্বাগত জানাচ্ছি।
+                নীচে আমার যাবতীয় লেখা কালানুক্রমিকভাবে (Chronological Order) সাজানো আছে। কোনো লেখা পড়ার জন্য সেই লেখার
+                উপরে ক্লিক করুন।
+            </p>
+            <p class="text-justify">আমার ইংরেজি ব্লগ পড়ার জন্য <a href="/" target="_blank">এখানে</a> ক্লিক করুন। এছাড়া
+                আমার সঙ্গে যোগাযোগের জন্য প্রয়োজনীয় লিংক নীচে দিলাম :
+            </p>
+            <footer class="is-center">
+                <a class="button primary" target="_blank" href="https://www.facebook.com/TheTarunJana">ফেসবুক</a>
+                <a class="button primary" target="_blank" href="mailto:hi@tarunjana.in">ইমেল</a>
+            </footer>
+        </div>
+    </section>
+    <!-- List of Posts -->
+    <h2 class="is-center">পোস্টের তালিকা :</h2>
+    <section class="is-horizontal-align">
+        <ul>
+            {{ range .Pages }}
+            <li>
+                {{.Date.Format "02-01-2006"}} | <a href="{{ .Permalink }}">{{.Title}}</a>
+            </li>
+            {{ end }}
+        </ul>
+    </section>
+    <hr>
+    <!-- Footer -->
+    <footer class="is-horizontal-align">
+        <p>&copy; 2018 - {{ now.Format "2006"}} | <a href="/">তরুণ জানা</a></p>
+    </footer>
+    <!-- Auto-detect Dark Mode -->
+    <script>
+        if (window.matchMedia &&
+            window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add('dark');
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+@import url("/css/chota.min.css");
+
+@font-face {
+    font-family: 'Noto Serif Bengali';
+    src: url('/fonts/noto-serif-bengali.woff2') format('woff2'), /* Super Modern Browsers */
+         url('/fonts/noto-serif-bengali.woff') format('woff'), /* Pretty Modern Browsers */
+         url('/fonts/noto-serif-bengali.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+body, h1, h2, h3, h4, h5, h6{
+    font-family: 'Noto Serif Bengali', serif;
+}
+ul{
+    list-style-type: square;
+}
+.copyright{
+    font-style: italic;
+}
+/* Blinking Animation */
+.rectangle{
+    margin-left: 0.5rem;
+    height: 2rem;
+    width: 1rem;
+    background-color: var(--color-primary);
+}
+.blink{
+    animation: blink 1s infinite;
+}
+@keyframes blink{
+    0%{
+      opacity: 1;
+    }
+    50%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+}
+/* Custom Scrollbar */
+::-webkit-scrollbar{
+    width: 0.8rem;
+}
+::-webkit-scrollbar-track{
+    background: var(--color-lightGrey); 
+}
+::-webkit-scrollbar-thumb{
+    background: var(--color-primary); 
+}
+::-webkit-scrollbar-thumb:hover{
+    background: var( --color-success); 
+}
+/* Custom Text Selection */
+::-moz-selection{
+    color: var(--color-primary);
+    background: var(--color-lightGrey);
+}
+::selection{
+    color: var(--color-primary);
+    background: var(--color-lightGrey);
+}

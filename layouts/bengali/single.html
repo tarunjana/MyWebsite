@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bengali.css">
+    <!-- Dark Mode -->
+    <style>
+        body.dark {
+            --bg-color: #000;
+            --bg-secondary-color: #131316;
+            --font-color: #f5f5f5;
+            --color-grey: #ccc;
+            --color-darkGrey: #777;
+        }
+    </style>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico" type="image/x-icon">
+    <title>{{ .Title }} | তরুণ জানা</title>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <header class="container">
+        <nav class="nav">
+            <div class="nav-left">
+                <a class="brand" href="/bengali/">তরুণ জানা<span class="rectangle blink"></span></a>
+            </div>
+            <div class="nav-right">
+                <div class="tabs">
+                    <a href="/bengali/about">পরিচয়</a>
+                    <a href="/bengali/contact">যোগাযোগ</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <hr>
+    <!-- Content-->
+    <section class="container">
+        <!-- Center align content if center_align: true is set in frontmatter -->
+        {{ if .Params.center_align }}
+        <section class="text-center">
+            <h1>{{ .Title }}</h1>
+            <hr>
+            <article>{{ .Content }}</article>
+            <!-- Hide copyright and comment section if comment: false is set in frontmatter -->
+            {{ if .Params.comment }}
+            <hr>
+            <p class="copyright">কপিরাইট : <a href="https://www.facebook.com/TheTarunJana" target="_blank"
+                    rel="nofollow">{{ .Params.writer }}</a><br>তারিখ : {{ .Date.Format "January 2, 2006" }}</p>
+            <hr>
+            {{ template "_internal/disqus.html" . }}
+            {{ end }}
+        </section>
+        <!-- Justify contents for other types -->
+        {{ else }}
+        <section class="text-justify">
+            <h1>{{ .Title }}</h1>
+            <hr>
+            <article>{{ .Content }}</article>
+            <!-- Hide copyright and comment section if comment: false is set in frontmatter -->
+            {{ if .Params.comment }}
+            <hr>
+            <p class="copyright">কপিরাইট : <a href="https://www.facebook.com/TheTarunJana" target="_blank"
+                    rel="nofollow">{{ .Params.writer }}</a><br>তারিখ : {{ .Date.Format "January 2, 2006" }}</p>
+            <hr>
+            {{ template "_internal/disqus.html" . }}
+            {{ end }}
+        </section>
+        {{ end }}
+        <hr>
+        <!-- Show Related Content if comment: true is set in frontmatter -->
+        {{ if .Params.comment }}
+        <h3 class="is-center is-marginless">অন্যান্য লেখা :</h3>
+        <section class="is-horizontal-align">
+            {{ partial "related.html" . }}
+        </section>
+        {{ end }}
+    </section>
+    <hr>
+    <!-- Footer -->
+    <footer class="is-horizontal-align">
+        <p>&copy; 2018 - {{ now.Format "2006"}} | <a href="/">তরুণ জানা</a></p>
+    </footer>
+    <!-- Auto-detect Dark Mode -->
+    <script>
+        if (window.matchMedia &&
+            window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add('dark');
+        }
+    </script>
+</body>
+
+</html>

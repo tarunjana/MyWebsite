@@ -121,3 +121,8 @@ disqusShortname = "tarun-kumar-jana"
             name = "Tags"
             weight = 4
             url = "tags/"
+
+            [[languages.en.menu.main]]
+            name = "Bengali"
+            weight = 5
+            url = "bengali/"
