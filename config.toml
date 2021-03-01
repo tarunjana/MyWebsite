@@ -95,6 +95,24 @@ disqusShortname = "tarun-kumar-jana"
     weight = 4
     url = "https://twitter.com/TheTarunJana/"
 
+[related]
+  includeNewer = true
+  threshold = 0
+  toLower = false
+
+  [[related.indices]]
+    name = "keywords"
+    weight = 0
+
+  [[related.indices]]
+    name = "writer"
+    weight = 100
+
+  [[related.indices]]
+    name = "date"
+    weight = 5
+    pattern = "2006"
+
 
 [languages]
     [languages.en]

@@ -43,13 +43,7 @@
             <header class="text-center">
                 <h1>নমস্কার!</h1>
             </header>
-            <p class="text-justify">আমি তরুণ কুমার জানা, একজন সামান্য কলমচি। আমার বাংলা ব্লগে আপনাকে স্বাগত জানাচ্ছি।
-                নীচে আমার যাবতীয় লেখা কালানুক্রমিকভাবে (Chronological Order) সাজানো আছে। কোনো লেখা পড়ার জন্য সেই লেখার
-                উপরে ক্লিক করুন।
-            </p>
-            <p class="text-justify">আমার ইংরেজি ব্লগ পড়ার জন্য <a href="/" target="_blank">এখানে</a> ক্লিক করুন। এছাড়া
-                আমার সঙ্গে যোগাযোগের জন্য প্রয়োজনীয় লিংক নীচে দিলাম :
-            </p>
+            <p class="text-justify">আমি তরুণ কুমার জানা, একজন সামান্য কলমচি। আমার বাংলা ব্লগে আপনাকে স্বাগত জানাচ্ছি।</p>
             <footer class="is-center">
                 <a class="button primary" target="_blank" href="https://www.facebook.com/TheTarunJana">ফেসবুক</a>
                 <a class="button primary" target="_blank" href="mailto:hi@tarunjana.in">ইমেল</a>
@@ -61,16 +55,19 @@
     <section class="is-horizontal-align">
         <ul>
             {{ range .Pages }}
+            <!-- List the post if comment: true is set in frontmatter -->
+            {{ if .Params.comment }}
             <li>
                 {{.Date.Format "02-01-2006"}} | <a href="{{ .Permalink }}">{{.Title}}</a>
             </li>
+            {{ end }}
             {{ end }}
         </ul>
     </section>
     <hr>
     <!-- Footer -->
     <footer class="is-horizontal-align">
-        <p>&copy; 2018 - {{ now.Format "2006"}} | <a href="/">তরুণ জানা</a></p>
+        <p>&copy; 2018 - {{ now.Format "2006"}} | <a href="/bengali/">তরুণ জানা</a></p>
     </footer>
     <!-- Auto-detect Dark Mode -->
     <script>

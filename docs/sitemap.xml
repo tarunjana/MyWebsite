@@ -68,16 +68,6 @@
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/tags/%E0%A6%97%E0%A6%B2%E0%A7%8D%E0%A6%AA/</loc>
-    <lastmod>2020-11-16T12:02:38+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.tarunjana.in/tags/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AE/</loc>
-    <lastmod>2020-11-16T12:02:38+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.tarunjana.in/bengali/story/lomba-jokarer-golpo/</loc>
     <lastmod>2020-11-16T12:02:38+05:30</lastmod>
   </url>
@@ -108,33 +98,13 @@
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/story/koyekti-onugolpo/</loc>
+    <loc>http://www.tarunjana.in/bengali/story/onugolpo/</loc>
     <lastmod>2020-03-24T16:02:58+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.tarunjana.in/bengali/about/</loc>
-    <lastmod>2020-03-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.tarunjana.in/bengali/contact/</loc>
-    <lastmod>2020-03-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.tarunjana.in/bengali/story/mesobabur-mess/</loc>
     <lastmod>2020-02-05T19:23:40+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.tarunjana.in/tags/%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%B0%E0%A6%B8%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%AE%E0%A6%95/</loc>
-    <lastmod>2020-02-05T19:23:40+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.tarunjana.in/tags/%E0%A6%B0%E0%A6%B9%E0%A6%B8%E0%A7%8D%E0%A6%AF/</loc>
-    <lastmod>2019-12-08T16:35:18+05:30</lastmod>
   </url>
   
   <url>
@@ -183,11 +153,6 @@
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/tags/%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8/</loc>
-    <lastmod>2018-09-28T19:16:57+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.tarunjana.in/bengali/story/mallik-sir-o-moulik-sonkhya/</loc>
     <lastmod>2018-09-28T19:16:57+05:30</lastmod>
   </url>
@@ -211,6 +176,14 @@
   
   <url>
     <loc>http://www.tarunjana.in/series/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.tarunjana.in/bengali/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.tarunjana.in/bengali/contact/</loc>
   </url>
   
 </urlset>

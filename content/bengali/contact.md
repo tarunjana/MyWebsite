@@ -1,7 +1,5 @@
 ---
 title: "যোগাযোগ"
-date: "2020-03-23"
-writer: "তরুণ জানা"
 comment: false
 center_align: false
 slug: "contact"
@@ -15,6 +13,7 @@ draft: false
 
 - [ফেসবুক](https://www.facebook.com/TheTarunJana)
 - [টুইটার](https://www.twitter.com/TheTarunJana)
-- [ইনস্টাগ্রাম](https://www.instagram.com/iam_tarun.jana/)
 - [প্রতিলিপি](https://bengali.pratilipi.com/user/tarun-kumar-jana-2onlyva4w2)
 - [কোরা বাংলা](https://bn.quora.com/profile/Tarun-Jana)
+
+টেকনিক্যাল আর্টিক্যাল আর প্রোগ্রামিং টিউটোরিয়ালের জন্য আমার [ইংরেজি ব্লগে](/) যান।

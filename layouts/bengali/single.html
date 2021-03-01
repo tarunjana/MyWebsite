@@ -44,6 +44,7 @@
         <section class="text-center">
             <h1>{{ .Title }}</h1>
             <hr>
+            <!-- Main Content -->
             <article>{{ .Content }}</article>
             <!-- Hide copyright and comment section if comment: false is set in frontmatter -->
             {{ if .Params.comment }}
@@ -51,6 +52,7 @@
             <p class="copyright">কপিরাইট : <a href="https://www.facebook.com/TheTarunJana" target="_blank"
                     rel="nofollow">{{ .Params.writer }}</a><br>তারিখ : {{ .Date.Format "January 2, 2006" }}</p>
             <hr>
+            <h3>আপনার মতামত জানান :</h3>
             {{ template "_internal/disqus.html" . }}
             {{ end }}
         </section>
@@ -59,6 +61,7 @@
         <section class="text-justify">
             <h1>{{ .Title }}</h1>
             <hr>
+            <!-- Main Content -->
             <article>{{ .Content }}</article>
             <!-- Hide copyright and comment section if comment: false is set in frontmatter -->
             {{ if .Params.comment }}
@@ -66,14 +69,15 @@
             <p class="copyright">কপিরাইট : <a href="https://www.facebook.com/TheTarunJana" target="_blank"
                     rel="nofollow">{{ .Params.writer }}</a><br>তারিখ : {{ .Date.Format "January 2, 2006" }}</p>
             <hr>
+            <h3>আপনার মতামত জানান :</h3>
             {{ template "_internal/disqus.html" . }}
             {{ end }}
         </section>
         {{ end }}
-        <hr>
         <!-- Show Related Content if comment: true is set in frontmatter -->
         {{ if .Params.comment }}
-        <h3 class="is-center is-marginless">অন্যান্য লেখা :</h3>
+        <hr>
+        <h3 class="is-center is-marginless">আরো পড়ুন :</h3>
         <section class="is-horizontal-align">
             {{ partial "related.html" . }}
         </section>
@@ -82,7 +86,7 @@
     <hr>
     <!-- Footer -->
     <footer class="is-horizontal-align">
-        <p>&copy; 2018 - {{ now.Format "2006"}} | <a href="/">তরুণ জানা</a></p>
+        <p>&copy; 2018 - {{ now.Format "2006"}} | <a href="/bengali/">তরুণ জানা</a></p>
     </footer>
     <!-- Auto-detect Dark Mode -->
     <script>

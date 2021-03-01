@@ -42,13 +42,11 @@ draft: false
 
 ---
 
-প্রেমের মতোই পূর্বরাগের অনুভূতিও চিরন্তন। সেই ক্লাসিক অনুভূতির সুরই ধরা পড়েছে আবৃত্তিকার শতরূপা ঘোষের গলায়।
-
+{{< vimeo 517822472 >}}
+\
 {{<raw>}}
-<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.
-com%2FTheTarunJana%2Fvideos%2F242947397253303%2F&show_text=false&width=560" width="560" height="314" 
-style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; 
-clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+<p class="text-left">প্রেমের মতোই পূর্বরাগের অনুভূতিও চিরন্তন। সেই ক্লাসিক অনুভূতির সুরই ধরা পড়েছে আমার প্রিয় 
+আবৃত্তিকার শতরূপা ঘোষের গলায়। আরো আবৃত্তি শুনতে <a href="https://www.youtube.com/channel/
+UCtXOuj2RSvh0v_PmQ4IAktw"
+target="_blank" rel="nofollow">শতরূপার চ্যানেল</a> থেকে ঘুরে আসতে পারেন।</p>
 {{</raw>}}
-
-আরো আবৃত্তি শুনতে [শতরূপার চ্যানেলে](https://www.youtube.com/channel/UCtXOuj2RSvh0v_PmQ4IAktw) থেকে ঘুরে আসুন।

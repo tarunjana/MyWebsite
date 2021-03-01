@@ -1,7 +1,5 @@
 ---
 title: "পরিচয়"
-date: "2020-03-23"
-writer: "তরুণ জানা"
 comment: false
 center_align: false
 slug: "about"
