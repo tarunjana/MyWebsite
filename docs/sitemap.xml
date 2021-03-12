@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.tarunjana.in/bengali/</loc>
+    <lastmod>2021-03-12T20:03:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.tarunjana.in/</loc>
+    <lastmod>2021-03-12T20:03:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.tarunjana.in/bengali/others/bari/</loc>
+    <lastmod>2021-03-12T20:03:17+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.tarunjana.in/authors/</loc>
     <lastmod>2021-02-04T11:45:22+05:30</lastmod>
   </url>
@@ -38,11 +53,6 @@
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/</loc>
-    <lastmod>2021-02-04T11:45:22+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.tarunjana.in/tags/hugo/</loc>
     <lastmod>2021-01-25T20:37:54+05:30</lastmod>
   </url>
@@ -55,11 +65,6 @@
   <url>
     <loc>http://www.tarunjana.in/posts/others/why-i-love-hugo/</loc>
     <lastmod>2021-01-25T20:37:54+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.tarunjana.in/bengali/</loc>
-    <lastmod>2020-12-17T12:39:54+05:30</lastmod>
   </url>
   
   <url>
