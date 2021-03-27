@@ -6,16 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/bengali.css">
-    <!-- Dark Mode -->
-    <style>
-        body.dark {
-            --bg-color: #000;
-            --bg-secondary-color: #131316;
-            --font-color: #f5f5f5;
-            --color-grey: #ccc;
-            --color-darkGrey: #777;
-        }
-    </style>
     <!-- Favicon -->
     <link rel="shortcut icon" href="/images/favicon/favicon.ico" type="image/x-icon">
     <title>তরুণ জানা</title>
@@ -43,7 +33,8 @@
             <header class="text-center">
                 <h1>নমস্কার!</h1>
             </header>
-            <p class="text-justify">আমি তরুণ কুমার জানা, একজন সামান্য কলমচি। আমার বাংলা ব্লগে আপনাকে স্বাগত জানাচ্ছি।</p>
+            <p class="text-justify">আমি তরুণ কুমার জানা, একজন সামান্য কলমচি। আমার বাংলা ব্লগে আপনাকে স্বাগত জানাচ্ছি।
+            </p>
             <footer class="is-center">
                 <a class="button primary" target="_blank" href="https://www.facebook.com/TheTarunJana">ফেসবুক</a>
                 <a class="button primary" target="_blank" href="mailto:hi@tarunjana.in">ইমেল</a>
@@ -65,15 +56,34 @@
         </ul>
     </section>
     <hr>
+    <!-- Theme Toggler -->
+    <a href="javascript:void(0)" id="theme-switch" onclick="switchMode()">☀️</a>
     <!-- Footer -->
     <footer class="is-horizontal-align">
         <p>&copy; 2018 - {{ now.Format "2006"}} | <a href="/bengali/">তরুণ জানা</a></p>
     </footer>
-    <!-- Auto-detect Dark Mode -->
+    <!-- Script For Dark Mode -->
     <script>
-        if (window.matchMedia &&
-            window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            document.body.classList.add('dark');
+        const element = document.body;
+        // Check For Dark Mode
+        if (
+            (!(localStorage.getItem("bengali-theme") == "light") && (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches)) ||
+            (localStorage.getItem("bengali-theme") == "dark")
+        ) {
+            element.classList.add("dark");
+            document.getElementById("theme-switch").innerHTML = "🌙";
+        }
+        // Function For Theme Toggler
+        function switchMode() {
+            element.classList.toggle("dark");
+            if (element.classList.contains("dark")) {
+                localStorage.setItem("bengali-theme", "dark");
+                document.getElementById("theme-switch").innerHTML = "🌙";
+            }
+            else {
+                localStorage.setItem("bengali-theme", "light");
+                document.getElementById("theme-switch").innerHTML = "☀️";
+            }
         }
     </script>
 </body>

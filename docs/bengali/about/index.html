@@ -7,16 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/bengali.css">
     
-    <style>
-        body.dark {
-            --bg-color: #000;
-            --bg-secondary-color: #131316;
-            --font-color: #f5f5f5;
-            --color-grey: #ccc;
-            --color-darkGrey: #777;
-        }
-    </style>
-    
     <link rel="shortcut icon" href="/images/favicon/favicon.ico" type="image/x-icon">
     <title>পরিচয় | তরুণ জানা</title>
 </head>
@@ -63,14 +53,33 @@
     </section>
     <hr>
     
+    <a href="javascript:void(0)" id="theme-switch" onclick="switchMode()">☀️</a>
+    
     <footer class="is-horizontal-align">
         <p>&copy; 2018 - 2021 | <a href="/bengali/">তরুণ জানা</a></p>
     </footer>
     
     <script>
-        if (window.matchMedia &&
-            window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            document.body.classList.add('dark');
+        const element = document.body;
+        
+        if (
+            (!(localStorage.getItem("bengali-theme") == "light") && (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches)) ||
+            (localStorage.getItem("bengali-theme") == "dark")
+        ) {
+            element.classList.add("dark");
+            document.getElementById("theme-switch").innerHTML = "🌙";
+        }
+        
+        function switchMode() {
+            element.classList.toggle("dark");
+            if (element.classList.contains("dark")) {
+                localStorage.setItem("bengali-theme", "dark");
+                document.getElementById("theme-switch").innerHTML = "🌙";
+            }
+            else {
+                localStorage.setItem("bengali-theme", "light");
+                document.getElementById("theme-switch").innerHTML = "☀️";
+            }
         }
     </script>
 </body>
