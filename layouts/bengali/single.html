@@ -39,8 +39,7 @@
             <!-- Hide copyright and comment section if comment: false is set in frontmatter -->
             {{ if .Params.comment }}
             <hr>
-            <p class="copyright">কপিরাইট : <a href="https://www.facebook.com/TheTarunJana" target="_blank"
-                    rel="nofollow">{{ .Params.writer }}</a><br>তারিখ : {{ .Date.Format "January 2, 2006" }}</p>
+            <p class="copyright">কপিরাইট : <a href="/bengali/about">{{ .Params.writer }}</a><br>তারিখ : {{ .Date.Format "January 2, 2006" }}</p>
             <hr>
             <h3>আপনার মতামত জানান :</h3>
             {{ template "_internal/disqus.html" . }}
@@ -56,8 +55,7 @@
             <!-- Hide copyright and comment section if comment: false is set in frontmatter -->
             {{ if .Params.comment }}
             <hr>
-            <p class="copyright">কপিরাইট : <a href="https://www.facebook.com/TheTarunJana" target="_blank"
-                    rel="nofollow">{{ .Params.writer }}</a><br>তারিখ : {{ .Date.Format "January 2, 2006" }}</p>
+            <p class="copyright">কপিরাইট : <a href="/bengali/about">{{ .Params.writer }}</a><br>তারিখ : {{ .Date.Format "January 2, 2006" }}</p>
             <hr>
             <h3>আপনার মতামত জানান :</h3>
             {{ template "_internal/disqus.html" . }}
@@ -75,7 +73,7 @@
     </section>
     <hr>
     <!-- Theme Toggler -->
-    <a href="javascript:void(0)" id="theme-switch" onclick="switchMode()">☀️</a>
+    <a href="javascript:void(0)" class="button primary" id="theme-switch" onclick="switchMode()">🌙</a>
     <!-- Footer -->
     <footer class="is-horizontal-align">
         <p>&copy; 2018 - {{ now.Format "2006"}} | <a href="/bengali/">তরুণ জানা</a></p>
@@ -89,18 +87,18 @@
             (localStorage.getItem("bengali-theme") == "dark")
         ) {
             element.classList.add("dark");
-            document.getElementById("theme-switch").innerHTML = "🌙";
+            document.getElementById("theme-switch").innerHTML = "☀️";
         }
         // Function For Theme Toggler
         function switchMode() {
             element.classList.toggle("dark");
             if (element.classList.contains("dark")) {
                 localStorage.setItem("bengali-theme", "dark");
-                document.getElementById("theme-switch").innerHTML = "🌙";
+                document.getElementById("theme-switch").innerHTML = "☀️";
             }
             else {
                 localStorage.setItem("bengali-theme", "light");
-                document.getElementById("theme-switch").innerHTML = "☀️";
+                document.getElementById("theme-switch").innerHTML = "🌙";
             }
         }
     </script>

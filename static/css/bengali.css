@@ -80,5 +80,5 @@ body.dark {
     --color-darkGrey: #777;
 }
 * {
-    transition: background-color 0.5s linear;
+    transition: background-color 0.5s linear, color 0.1s linear;
 }

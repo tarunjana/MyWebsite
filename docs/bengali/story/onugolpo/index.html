@@ -145,8 +145,7 @@
             
             
             <hr>
-            <p class="copyright">কপিরাইট : <a href="https://www.facebook.com/TheTarunJana" target="_blank"
-                    rel="nofollow">তরুণ জানা</a><br>তারিখ : March 24, 2020</p>
+            <p class="copyright">কপিরাইট : <a href="/bengali/about">তরুণ জানা</a><br>তারিখ : March 24, 2020</p>
             <hr>
             <h3>আপনার মতামত জানান :</h3>
             <div id="disqus_thread"></div>
@@ -198,7 +197,7 @@
     </section>
     <hr>
     
-    <a href="javascript:void(0)" id="theme-switch" onclick="switchMode()">☀️</a>
+    <a href="javascript:void(0)" class="button primary" id="theme-switch" onclick="switchMode()">🌙</a>
     
     <footer class="is-horizontal-align">
         <p>&copy; 2018 - 2021 | <a href="/bengali/">তরুণ জানা</a></p>
@@ -212,18 +211,18 @@
             (localStorage.getItem("bengali-theme") == "dark")
         ) {
             element.classList.add("dark");
-            document.getElementById("theme-switch").innerHTML = "🌙";
+            document.getElementById("theme-switch").innerHTML = "☀️";
         }
         
         function switchMode() {
             element.classList.toggle("dark");
             if (element.classList.contains("dark")) {
                 localStorage.setItem("bengali-theme", "dark");
-                document.getElementById("theme-switch").innerHTML = "🌙";
+                document.getElementById("theme-switch").innerHTML = "☀️";
             }
             else {
                 localStorage.setItem("bengali-theme", "light");
-                document.getElementById("theme-switch").innerHTML = "☀️";
+                document.getElementById("theme-switch").innerHTML = "🌙";
             }
         }
     </script>

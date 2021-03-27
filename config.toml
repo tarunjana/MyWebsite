@@ -9,6 +9,7 @@ defaultContentLanguage = "en"
 paginate = 20
 publishDir = "docs"
 enableRobotsTXT = true
+enableEmoji = true
 
 pygmentsStyle = "b2"
 pygmentsCodeFences = true
