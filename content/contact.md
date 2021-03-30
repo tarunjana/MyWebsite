@@ -14,3 +14,10 @@ Please remember:
 > You may scan the QR code below to save my email address:
 
 {{< figure src="/images/Tarun-Jana-vCard.png" caption="vCard" alt="vCard" width="250px" height="250px" >}}
+
+Alternatively, you may find my footsteps on the following social media:
+
+* [Facebook](https://www.facebook.com/TheTarunJana)
+* [Twitter](https://www.twitter.com/TheTarunJana)
+* [Pratilipi Bengali](https://bengali.pratilipi.com/user/tarun-kumar-jana-2onlyva4w2)
+* [Quora Bengali](https://bn.quora.com/profile/Tarun-Jana)

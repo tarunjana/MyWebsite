@@ -3,192 +3,190 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/</loc>
+    <loc>https://www.tarunjana.in/authors/</loc>
     <lastmod>2021-03-12T20:03:17+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/</loc>
+    <loc>https://www.tarunjana.in/categories/bengali/</loc>
     <lastmod>2021-03-12T20:03:17+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/others/bari/</loc>
+    <loc>https://www.tarunjana.in/categories/</loc>
     <lastmod>2021-03-12T20:03:17+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/authors/</loc>
+    <loc>https://www.tarunjana.in/tags/others/</loc>
+    <lastmod>2021-03-12T20:03:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tarunjana.in/posts/</loc>
+    <lastmod>2021-03-12T20:03:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tarunjana.in/tags/</loc>
+    <lastmod>2021-03-12T20:03:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tarunjana.in/authors/tarun-jana/</loc>
+    <lastmod>2021-03-12T20:03:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tarunjana.in/</loc>
+    <lastmod>2021-03-12T20:03:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tarunjana.in/posts/others/bari/</loc>
+    <lastmod>2021-03-12T20:03:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tarunjana.in/categories/english/</loc>
     <lastmod>2021-02-04T11:45:22+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/tags/c/</loc>
+    <loc>https://www.tarunjana.in/posts/programming/c/primality-test-in-c-language/</loc>
     <lastmod>2021-02-04T11:45:22+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/posts/</loc>
+    <loc>https://www.tarunjana.in/tags/programming/</loc>
     <lastmod>2021-02-04T11:45:22+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/posts/programming/c/primality-test-in-c-language/</loc>
-    <lastmod>2021-02-04T11:45:22+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.tarunjana.in/tags/programming/</loc>
-    <lastmod>2021-02-04T11:45:22+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.tarunjana.in/tags/</loc>
-    <lastmod>2021-02-04T11:45:22+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.tarunjana.in/authors/tarun-jana/</loc>
-    <lastmod>2021-02-04T11:45:22+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.tarunjana.in/tags/hugo/</loc>
+    <loc>https://www.tarunjana.in/posts/others/why-i-love-hugo/</loc>
     <lastmod>2021-01-25T20:37:54+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/tags/others/</loc>
-    <lastmod>2021-01-25T20:37:54+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.tarunjana.in/posts/others/why-i-love-hugo/</loc>
-    <lastmod>2021-01-25T20:37:54+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.tarunjana.in/bengali/poem/aste-paro/</loc>
+    <loc>https://www.tarunjana.in/tags/poem/</loc>
     <lastmod>2020-12-17T12:39:54+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/story/lomba-jokarer-golpo/</loc>
+    <loc>https://www.tarunjana.in/posts/poem/aste-paro/</loc>
+    <lastmod>2020-12-17T12:39:54+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tarunjana.in/tags/story/</loc>
     <lastmod>2020-11-16T12:02:38+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/others/deshoprem/</loc>
+    <loc>https://www.tarunjana.in/posts/story/lomba-jokarer-golpo/</loc>
+    <lastmod>2020-11-16T12:02:38+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tarunjana.in/posts/others/deshoprem/</loc>
     <lastmod>2020-08-15T16:55:41+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/others/swami-morkatananda-ubacha/</loc>
+    <loc>https://www.tarunjana.in/posts/others/swami-morkatananda-ubacha/</loc>
     <lastmod>2020-06-28T15:24:56+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/poem/sei-meyeta/</loc>
+    <loc>https://www.tarunjana.in/posts/poem/sei-meyeta/</loc>
     <lastmod>2020-04-23T09:46:28+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/poem/onukobita/</loc>
+    <loc>https://www.tarunjana.in/posts/poem/onukobita/</loc>
     <lastmod>2020-04-05T20:50:49+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/others/valobasi-valobasi/</loc>
+    <loc>https://www.tarunjana.in/posts/others/valobasi-valobasi/</loc>
     <lastmod>2020-04-01T00:01:35+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/story/onugolpo/</loc>
+    <loc>https://www.tarunjana.in/posts/story/onugolpo/</loc>
     <lastmod>2020-03-24T16:02:58+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/story/mesobabur-mess/</loc>
+    <loc>https://www.tarunjana.in/posts/story/mesobabur-mess/</loc>
     <lastmod>2020-02-05T19:23:40+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/story/sei-chadorta/</loc>
+    <loc>https://www.tarunjana.in/posts/story/sei-chadorta/</loc>
     <lastmod>2019-12-08T16:35:18+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/poem/cholo/</loc>
+    <loc>https://www.tarunjana.in/posts/poem/cholo/</loc>
     <lastmod>2019-08-30T16:26:34+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/poem/local-trainer-goppo/</loc>
+    <loc>https://www.tarunjana.in/posts/poem/local-trainer-goppo/</loc>
     <lastmod>2019-07-06T11:50:20+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/poem/bekar/</loc>
+    <loc>https://www.tarunjana.in/posts/poem/bekar/</loc>
     <lastmod>2019-07-01T20:56:30+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/story/ekti-durghotonar-nepotthe/</loc>
+    <loc>https://www.tarunjana.in/posts/story/ekti-durghotonar-nepotthe/</loc>
     <lastmod>2018-12-29T16:10:50+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/others/brinjal-recipe/</loc>
+    <loc>https://www.tarunjana.in/posts/others/brinjal-recipe/</loc>
     <lastmod>2018-11-09T19:32:49+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/story/bondhur-bari-jeo-na/</loc>
+    <loc>https://www.tarunjana.in/posts/story/bondhur-bari-jeo-na/</loc>
     <lastmod>2018-11-05T11:36:49+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/poem/iti-voboghure/</loc>
+    <loc>https://www.tarunjana.in/posts/poem/iti-voboghure/</loc>
     <lastmod>2018-10-30T16:20:08+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/poem/bari-firteo-paro/</loc>
+    <loc>https://www.tarunjana.in/posts/poem/bari-firteo-paro/</loc>
     <lastmod>2018-10-03T16:30:49+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/story/mallik-sir-o-moulik-sonkhya/</loc>
+    <loc>https://www.tarunjana.in/posts/story/mallik-sir-o-moulik-sonkhya/</loc>
     <lastmod>2018-09-28T19:16:57+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/bengali/poem/petuk/</loc>
+    <loc>https://www.tarunjana.in/posts/poem/petuk/</loc>
     <lastmod>2018-08-15T19:25:50+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/about/</loc>
+    <loc>https://www.tarunjana.in/about/</loc>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/categories/</loc>
+    <loc>https://www.tarunjana.in/contact/</loc>
   </url>
   
   <url>
-    <loc>http://www.tarunjana.in/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.tarunjana.in/series/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.tarunjana.in/bengali/about/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.tarunjana.in/bengali/contact/</loc>
+    <loc>https://www.tarunjana.in/series/</loc>
   </url>
   
 </urlset>

@@ -1,4 +1,4 @@
-baseURL = "http://www.tarunjana.in/"
+baseURL = "https://www.tarunjana.in/"
 title = "Tarun Jana"
 
 theme = "hugo-coder"
@@ -20,8 +20,8 @@ disqusShortname = "tarun-kumar-jana"
 [params]
     author = "Tarun Jana"
     description = "A Place For Me & My Alter Ego"
-    keywords = "blog, developer, coder, personal"
-    info = "A Passionate Coder"
+    keywords = "blog, developer, coder, personal, creative writing"
+    info = "A Passionate Coder & Writer"
     avatarURL = "images/Tarun-Jana.jpg"
     favicon_32 = "images/favicon/favicon-32x32.png"
     favicon_16 = "images/favicon/favicon-16x16.png"
@@ -33,10 +33,10 @@ disqusShortname = "tarun-kumar-jana"
     hideFooter = false
     hideCredits = true
     hideCopyright = false
-    since = 2021
+    since = 2018
 
     # Git Commit in Footer, uncomment the line below to enable it.
-    # commit = "https://github.com/luizdepra/hugo-coder/tree/"
+    # commit = "https://github.com/tarunjana/MyWebsite/tree/"
 
     rtl = false
 
@@ -57,7 +57,7 @@ disqusShortname = "tarun-kumar-jana"
     enableTwemoji = false
 
     # Custom CSS
-    customCSS = []
+    customCSS = ["/css/custom.css"]
 
     # Custom SCSS
     customSCSS = []
@@ -96,25 +96,6 @@ disqusShortname = "tarun-kumar-jana"
     weight = 4
     url = "https://twitter.com/TheTarunJana/"
 
-[related]
-  includeNewer = true
-  threshold = 0
-  toLower = false
-
-  [[related.indices]]
-    name = "keywords"
-    weight = 0
-
-  [[related.indices]]
-    name = "writer"
-    weight = 100
-
-  [[related.indices]]
-    name = "date"
-    weight = 5
-    pattern = "2006"
-
-
 [languages]
     [languages.en]
         languageName = "English"
@@ -137,11 +118,11 @@ disqusShortname = "tarun-kumar-jana"
             url = "contact/"
 
             [[languages.en.menu.main]]
-            name = "Tags"
+            name = "Categories"
             weight = 4
-            url = "tags/"
+            url = "categories/"
 
             [[languages.en.menu.main]]
-            name = "Bengali"
+            name = "Tags"
             weight = 5
-            url = "bengali/"
+            url = "tags/"

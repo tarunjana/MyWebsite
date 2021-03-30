@@ -1,7 +1,8 @@
 ---
 title: "Why I Love Hugo?"
 date: 2021-01-25T20:37:54+05:30
-tags: ["Hugo", "Others"]
+tags: ["Others"]
+categories: ["English"]
 slug: "why-i-love-hugo"
 authors: ["Tarun Jana"]
 katex: true
