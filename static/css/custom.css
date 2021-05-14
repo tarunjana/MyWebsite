@@ -11,7 +11,6 @@
          url('/fonts/noto-serif-bengali-bold.ttf')  format('truetype'); /* Safari, Android, iOS */
     font-weight: bold;
 }
-body, h1, h2, h3, h4, h5, h6, .list ul li .title, .navigation .container .navigation-title, 
-.navigation .container .navigation-list .navigation-item .navigation-link {
+body, h1, h2, h3, h4, h5, h6, .list ul li .title, .navigation a, .navigation span, .pagination {
     font-family: 'Noto Serif Bengali', serif;
 }
