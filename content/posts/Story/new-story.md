@@ -1,6 +1,6 @@
 ---
 title: New Story
-date: 2021-05-16T07:05:05.495Z
+date: 2021-05-16T07:16:40.205Z
 tags:
   - Story
 categories:
