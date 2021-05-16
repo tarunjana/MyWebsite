@@ -9,6 +9,6 @@ slug: new-story
 authors:
   - Tarun Jana
 katex: false
-draft: true
+draft: false
 ---
 Some Content...
