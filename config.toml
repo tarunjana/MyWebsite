@@ -7,7 +7,7 @@ languageCode = "en"
 defaultContentLanguage = "en"
 
 paginate = 20
-publishDir = "docs"
+publishDir = "public"
 enableRobotsTXT = true
 enableEmoji = true
 
@@ -126,3 +126,8 @@ disqusShortname = "tarun-kumar-jana"
             name = "Tags"
             weight = 5
             url = "tags/"
+
+            [[languages.en.menu.main]]
+            name = "Admin Login"
+            weight = 6
+            url = "admin/"
