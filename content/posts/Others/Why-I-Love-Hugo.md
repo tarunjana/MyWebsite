@@ -1,13 +1,17 @@
 ---
-title: "Why I Love Hugo?"
+title: Why I Love Hugo?
 date: 2021-01-25T20:37:54+05:30
-tags: ["Others"]
-categories: ["English"]
-slug: "why-i-love-hugo"
-authors: ["Tarun Jana"]
-katex: true
-featuredImage: 
+tags:
+  - Others
+  - Hugo
+categories:
+  - English
+slug: why-i-love-hugo
+authors:
+  - Tarun Jana
 draft: false
+featuredImage: null
+katex: true
 ---
 
 I needed a [blog](/) for myself. My requirements were pretty straight-forward: A static site generator with flexibility and speed.
