@@ -126,3 +126,13 @@ disqusShortname = "tarun-kumar-jana"
             name = "Tags"
             weight = 5
             url = "tags/"
+
+            [[languages.en.menu.main]]
+            name = "T & C"
+            weight = 6
+            url = "terms-and-conditions/"
+
+            [[languages.en.menu.main]]
+            name = "Privacy Policy"
+            weight = 7
+            url = "privacy-policy/"
