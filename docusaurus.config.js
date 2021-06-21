@@ -1,5 +1,7 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const math = require('remark-math');
+const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
@@ -20,13 +22,15 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
+        { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/about', label: 'About', position: 'left' },
+        { to: '/contact', label: 'Contact', position: 'left' },
         {
           type: 'doc',
           docId: 'intro',
           position: 'left',
           label: 'Tutorial',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/tarunjana/MyWebsite',
           label: 'GitHub',
@@ -77,7 +81,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Tarun Jana, Built with &hearts; and Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Tarun Jana, Built with &#9825; and Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -90,9 +94,9 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/tarunjana/MyWebsite',
+          editUrl: 'https://github.com/tarunjana/MyWebsite',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         blog: {
           showReadingTime: true,
@@ -102,5 +106,23 @@ module.exports = {
         },
       },
     ],
+  ],
+  stylesheets: [
+    {
+      href: "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css",
+      integrity: "sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc",
+      crossorigin: "anonymous",
+    },
+  ],
+  plugins: [
+    [
+      '@docusaurus/plugin-ideal-image',
+      {
+        quality: 85,
+        max: 900,
+        min: 400,
+        steps: 4,
+      },
+    ]
   ],
 };

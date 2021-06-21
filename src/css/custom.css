@@ -4,6 +4,22 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+/* Custom Font */
+ @font-face {
+  font-family: 'Noto Serif Bengali';
+  src: url('/fonts/noto-serif-bengali-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/noto-serif-bengali-regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/noto-serif-bengali-regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Noto Serif Bengali';
+  src: url('/fonts/noto-serif-bengali-bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/noto-serif-bengali-bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/noto-serif-bengali-bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-weight: bold;
+  font-display: swap;
+}
 
 /* You can override the default Infima variables here. */
 :root {
@@ -15,36 +31,19 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+  /* Main Font */
+  --ifm-font-family-base: 'Noto Serif Bengali', serif;
+  font-size: 1.1rem;
 }
-
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
-
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
-
-@font-face {
-  font-family: 'Noto Serif Bengali';
-  src: url('/fonts/noto-serif-bengali-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/noto-serif-bengali-regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/noto-serif-bengali-regular.ttf')  format('truetype'); /* Safari, Android, iOS */
-}
-@font-face {
-  font-family: 'Noto Serif Bengali';
-  src: url('/fonts/noto-serif-bengali-bold.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/noto-serif-bengali-bold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/noto-serif-bengali-bold.ttf')  format('truetype'); /* Safari, Android, iOS */
-  font-weight: bold;
-}
-body {
-  font-family: 'Noto Serif Bengali', serif;
-  font-size: 1.2rem;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Noto Serif Bengali', serif;
+p {
+  text-align: justify;
 }

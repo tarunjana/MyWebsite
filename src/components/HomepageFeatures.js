@@ -4,32 +4,32 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Mathematics',
+    Svg: require('../../static/img/mathematics.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+       I'm a teacher by profession. Besides giving excessive homework to my students, I produce mathematical 
+       tutorials sometimes.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Literature',
+    Svg: require('../../static/img/book.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Every Bengali is a poet when it rains. I'm not an exception to it. I write nonsense poems and short 
+        stories in my native language Bengali.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'Coding',
+    Svg: require('../../static/img/computer.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Coding was my first love. I've broken up with her and married Mathematics years ago. But illicit love has its own flavors. You 
+        know what I mean!
       </>
     ),
   },
