@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 1
 ---
 
 # Primality Test in C
@@ -11,7 +11,7 @@ number.
 ## Mathematical Approach
 
 There are many algorithms available to check primality of a natural number. But we'll go with the most 
-intuitive one. Of course, this is not the best and is not optimized for production usage [^drawback]. But it 
+intuitive one. Of course, this is not the best and is not optimized for production usage [^1]. But it 
 will be sufficient for our purposes.
 
 It's quite obvious that a prime number is not divisible by any natural number greater than $1$ and less than 
@@ -32,7 +32,7 @@ header file `math.h`.
 
 In the `main()` function, we'll take the input from the user. At this time, our code looks something like this:
 
-```c
+```c title="main.c"
 // Primality Test in C
 #include <stdio.h>
 #include <math.h>
@@ -51,10 +51,13 @@ Now we'll create a new function named `isPrime()` just before the `main()` funct
 entered number as the argument and check its primality.
 
 We know that $1$ is neither prime nor composite. If the user enters $1$ as an input, we need to print a 
-message. We'll create an `if-else` block and write the highlighted code. (*Newly written code in every step 
-will be highlighted!*)
+message. We'll create an `if-else` block and write the highlighted code.
 
-```c
+:::tip
+Newly written code in every step will be highlighted!
+:::
+
+```c {4-9} title="main.c"
 // Primality Test in C
 #include <stdio.h>
 #include <math.h>
@@ -86,7 +89,7 @@ Next we'll create another `if-else` block inside the parent `else` block. If `de
 this case), we'll confirm the primality of the given number. Otherwise we'll print that the entered number is 
 composite.
 
-```c
+```c {8-17} title="main.c"
 // Primality Test in C
 #include <stdio.h>
 #include <math.h>
@@ -117,7 +120,7 @@ int main() {
 
 At last we have to call the `isPrime()` function from the `main()` function.
 
-```c
+```c {23} title="main.c"
 // Primality Test in C
 #include <stdio.h>
 #include <math.h>
@@ -171,5 +174,5 @@ Enter a natural number:
 20 is NOT a prime.
 ```
 
-[^drawback]: The `isPrime()` function executes with a complexity of $O(\sqrt{n})$. Therefore our program can 
+[^1]: The `isPrime()` function executes with a complexity of $O(\sqrt{n})$. Therefore our program can 
 at most be used for natural numbers of range $10^{15}$ to $10^{16}$ in a reasonable amount of time.

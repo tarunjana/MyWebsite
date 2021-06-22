@@ -12,15 +12,23 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'tarunjana', // Usually your GitHub org/user name.
-  projectName: 'MyWebsite', // Usually your repo name.
+  organizationName: 'tarunjana',
+  projectName: 'MyWebsite',
   themeConfig: {
+    colorMode: {
+      respectPrefersColorScheme: true,
+    },
+    gtag: {
+      trackingID: 'G-FZDLE5QTH4',
+      anonymizeIP: true,
+    },
     navbar: {
       title: 'তরুণ জানা',
       logo: {
         alt: 'Logo',
         src: 'img/logo.svg',
       },
+      hideOnScroll: true,
       items: [
         { to: '/blog', label: 'Blog', position: 'left' },
         { to: '/about', label: 'About', position: 'left' },
@@ -32,7 +40,7 @@ module.exports = {
           label: 'Tutorial',
         },
         {
-          href: 'https://github.com/tarunjana/MyWebsite',
+          href: 'https://github.com/tarunjana',
           label: 'GitHub',
           position: 'right',
         },
@@ -42,50 +50,64 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Pages',
           items: [
             {
               label: 'Tutorial',
               to: '/docs/intro',
             },
+            {
+              label: 'About',
+              to: '/about',
+            },
+            {
+              label: 'Contact',
+              to: '/contact',
+            },
           ],
         },
         {
-          title: 'Community',
+          title: 'Social',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Facebook',
+              href: 'https://facebook.com/TheTarunJana',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/TheTarunJana',
+            },
+            {
+              label: 'Instagram',
+              href: 'https://www.instagram.com/iam_tarun.jana',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Blog',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Tags',
+              to: '/blog/tags',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Atom',
+              href: '/blog/atom.xml',
+            },
+            {
+              label: 'RSS',
+              href: '/blog/rss.xml',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Tarun Jana, Built with &#9825; and Docusaurus.`,
+      copyright: `© 2018 - ${new Date().getFullYear()} Tarun Jana, Built with &#9825; and Docusaurus`,
     },
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
+      defaultLanguage: 'c',
+      additionalLanguages: ['powershell'],
     },
   },
   presets: [
@@ -94,7 +116,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/tarunjana/MyWebsite',
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
@@ -119,10 +140,10 @@ module.exports = {
       '@docusaurus/plugin-ideal-image',
       {
         quality: 85,
-        max: 900,
-        min: 400,
-        steps: 4,
+        max: 600,
+        min: 500,
+        steps: 2,
       },
-    ]
+    ],
   ],
 };

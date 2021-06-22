@@ -1,26 +1,19 @@
-/* stylelint-disable docusaurus/copyright-header */
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
 /* Custom Font */
  @font-face {
   font-family: 'Noto Serif Bengali';
-  src: url('/fonts/noto-serif-bengali-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/noto-serif-bengali-regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/noto-serif-bengali-regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('/fonts/noto-serif-bengali-regular.woff2') format('woff2'),
+       url('/fonts/noto-serif-bengali-regular.woff') format('woff'),
+       url('/fonts/noto-serif-bengali-regular.ttf')  format('truetype');
   font-display: swap;
 }
 @font-face {
   font-family: 'Noto Serif Bengali';
-  src: url('/fonts/noto-serif-bengali-bold.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/noto-serif-bengali-bold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/noto-serif-bengali-bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('/fonts/noto-serif-bengali-bold.woff2') format('woff2'),
+       url('/fonts/noto-serif-bengali-bold.woff') format('woff'),
+       url('/fonts/noto-serif-bengali-bold.ttf')  format('truetype');
   font-weight: bold;
   font-display: swap;
 }
-
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #25c2a0;
@@ -46,4 +39,12 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 p {
   text-align: justify;
+}
+.circular-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  width: 80%;
+  border-radius: 50%;
 }

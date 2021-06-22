@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/mathematics.svg').default,
     description: (
       <>
-       I'm a teacher by profession. Besides giving excessive homework to my students, I produce mathematical 
+       I'm a teacher of Mathematics by profession. Besides giving excessive homework to my students, I produce mathematical 
        tutorials sometimes.
       </>
     ),
@@ -18,8 +18,8 @@ const FeatureList = [
     Svg: require('../../static/img/book.svg').default,
     description: (
       <>
-        Every Bengali is a poet when it rains. I'm not an exception to it. I write nonsense poems and short 
-        stories in my native language Bengali.
+        Every Bengali is a poet when it rains. I'm not an exception to it. I love to express my emotions using 
+        keyboard in my native language Bengali.
       </>
     ),
   },
@@ -28,7 +28,8 @@ const FeatureList = [
     Svg: require('../../static/img/computer.svg').default,
     description: (
       <>
-        Coding was my first love. I've broken up with her and married Mathematics years ago. But illicit love has its own flavors. You 
+        Coding was my first love. I've broken up with her and married Mathematics years ago. But illicit love 
+        has its own flavors. You 
         know what I mean!
       </>
     ),
