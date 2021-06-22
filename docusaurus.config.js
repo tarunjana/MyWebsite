@@ -92,11 +92,11 @@ module.exports = {
             },
             {
               label: 'Atom',
-              href: '/blog/atom.xml',
+              href: 'https://www.tarunjana.in/blog/atom.xml',
             },
             {
               label: 'RSS',
-              href: '/blog/rss.xml',
+              href: 'https://www.tarunjana.in/blog/rss.xml',
             },
           ],
         },
@@ -121,6 +121,10 @@ module.exports = {
         },
         blog: {
           showReadingTime: true,
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © 2018 - ${new Date().getFullYear()} Tarun Jana.`,
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
