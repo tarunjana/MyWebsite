@@ -33,7 +33,7 @@ module.exports = {
         { to: '/about', label: 'About', position: 'left' },
         { to: '/contact', label: 'Contact', position: 'left' },
         { to: '/blog', label: 'Bengali Blog', position: 'left' },
-        { to: '/english', label: 'English Blog', position: 'left' },
+        { to: '/en', label: 'English Blog', position: 'left' },
         {
           type: 'doc',
           docId: 'intro',
@@ -59,7 +59,7 @@ module.exports = {
             },
             {
               label: 'English',
-              to: '/english',
+              to: '/en',
             },
             {
               label: 'Tags',
@@ -148,7 +148,7 @@ module.exports = {
       '@docusaurus/plugin-content-blog',
       {
         id: 'english-blog',
-        routeBasePath: 'english',
+        routeBasePath: 'en',
         path: './english-blog',
         remarkPlugins: [math],
         rehypePlugins: [katex],
