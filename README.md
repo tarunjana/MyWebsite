@@ -1,33 +1,17 @@
-# Website
+# My Personal Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
-
-## Installation
-
-```console
-yarn install
-```
-
-## Local Development
-
-```console
-yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+This is the GitHub repository for my personal website.
 
 ## Build
 
-```console
-yarn build
-```
+This website is built using [Docusaurus v2](https://docusaurus.io/), a modern static website generator.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Domain
 
-## Deployment
+You may access my site at <https://www.tarunjana.in/>.
 
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
+## Hosting
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Currently the website is hosted for free (**Thanks!**) at [Netlify](https://www.netlify.com/).
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/459b3627-5b7e-44fb-8db2-86270247e3c6/deploy-status)](https://app.netlify.com/sites/tarunjana/deploys)

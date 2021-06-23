@@ -30,14 +30,15 @@ module.exports = {
       },
       hideOnScroll: true,
       items: [
-        { to: '/blog', label: 'Blog', position: 'left' },
         { to: '/about', label: 'About', position: 'left' },
         { to: '/contact', label: 'Contact', position: 'left' },
+        { to: '/blog', label: 'Bengali Blog', position: 'left' },
+        { to: '/english', label: 'English Blog', position: 'left' },
         {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Docs',
         },
         {
           href: 'https://github.com/tarunjana',
@@ -50,19 +51,36 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Pages',
+          title: 'Blogs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Bengali',
+              to: '/blog',
             },
+            {
+              label: 'English',
+              to: '/english',
+            },
+            {
+              label: 'Tags',
+              to: '/blog/tags',
+            },
+          ],
+        },
+        {
+          title: 'Pages',
+          items: [
             {
               label: 'About',
               to: '/about',
             },
             {
               label: 'Contact',
-              to: '/contact',
+              href: '/contact',
+            },
+            {
+              label: 'Docs',
+              to: '/docs/intro',
             },
           ],
         },
@@ -80,23 +98,6 @@ module.exports = {
             {
               label: 'Instagram',
               href: 'https://www.instagram.com/iam_tarun.jana',
-            },
-          ],
-        },
-        {
-          title: 'Blog',
-          items: [
-            {
-              label: 'Tags',
-              to: '/blog/tags',
-            },
-            {
-              label: 'Atom',
-              href: 'https://www.tarunjana.in/blog/atom.xml',
-            },
-            {
-              label: 'RSS',
-              href: 'https://www.tarunjana.in/blog/rss.xml',
             },
           ],
         },
@@ -125,6 +126,8 @@ module.exports = {
             type: 'all',
             copyright: `Copyright © 2018 - ${new Date().getFullYear()} Tarun Jana.`,
           },
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -140,6 +143,17 @@ module.exports = {
     },
   ],
   plugins: [
+    [
+      // For English Blog (2nd Blog)
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'english-blog',
+        routeBasePath: 'english',
+        path: './english-blog',
+        remarkPlugins: [math],
+        rehypePlugins: [katex],
+      },
+    ],
     [
       '@docusaurus/plugin-ideal-image',
       {
