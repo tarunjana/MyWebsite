@@ -7,12 +7,15 @@ import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <h2 className="hero__subtitle">{siteConfig.tagline}</h2>
+        <div className="avatar avatar--vertical margin-bottom--md">
+          <img className="avatar__photo avatar__photo--xl" src="https://avatars.githubusercontent.com/u/76617446" />
+        </div>
+        <h1>{siteConfig.title}</h1>
+        <h2>{siteConfig.tagline}</h2>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -26,7 +29,7 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       // title={`Hello from ${siteConfig.title}`}
