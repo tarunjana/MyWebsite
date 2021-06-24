@@ -5,8 +5,8 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'তরুণ জানা',
-  tagline: 'A Passionate Coder & Writer',
+  title: 'Tarun Jana',
+  tagline: 'A Passionate Coder',
   url: 'https://www.tarunjana.in',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -23,7 +23,7 @@ module.exports = {
       anonymizeIP: true,
     },
     navbar: {
-      title: 'তরুণ জানা',
+      title: 'Tarun Jana',
       logo: {
         alt: 'Logo',
         src: 'img/logo.svg',
@@ -32,8 +32,21 @@ module.exports = {
       items: [
         { to: '/about', label: 'About', position: 'left' },
         { to: '/contact', label: 'Contact', position: 'left' },
-        { to: '/blog', label: 'Bengali Blog', position: 'left' },
-        { to: '/en', label: 'English Blog', position: 'left' },
+        // Dropdown for all blogs
+        {
+          label: 'Blogs',
+          position: 'left',
+          items: [
+            {
+              label: 'Bengali',
+              to: '/bn',
+            },
+            {
+              label: 'English',
+              to: '/en',
+            },
+          ],
+        },
         {
           type: 'doc',
           docId: 'intro',
@@ -55,7 +68,7 @@ module.exports = {
           items: [
             {
               label: 'Bengali',
-              to: '/blog',
+              to: '/bn',
             },
             {
               label: 'English',
@@ -63,7 +76,7 @@ module.exports = {
             },
             {
               label: 'Tags',
-              to: '/blog/tags',
+              to: '/bn/tags',
             },
           ],
         },
@@ -121,7 +134,10 @@ module.exports = {
           rehypePlugins: [katex],
         },
         blog: {
+          id: "bengali-blog",
           showReadingTime: true,
+          routeBasePath: 'bn',
+          path: './bengali-blog',
           feedOptions: {
             type: 'all',
             copyright: `Copyright © 2018 - ${new Date().getFullYear()} Tarun Jana.`,
@@ -148,8 +164,13 @@ module.exports = {
       '@docusaurus/plugin-content-blog',
       {
         id: 'english-blog',
+        showReadingTime: true,
         routeBasePath: 'en',
         path: './english-blog',
+        feedOptions: {
+          type: 'all',
+          copyright: `Copyright © 2018 - ${new Date().getFullYear()} Tarun Jana.`,
+        },
         remarkPlugins: [math],
         rehypePlugins: [katex],
       },
