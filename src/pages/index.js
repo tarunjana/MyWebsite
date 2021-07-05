@@ -15,7 +15,7 @@ function HomepageHeader() {
           <img className="avatar__photo avatar__photo--xl" src="https://avatars.githubusercontent.com/u/76617446" />
         </div>
         <h1>{siteConfig.title}</h1>
-        <h2>{siteConfig.tagline}</h2>
+        <h3>{siteConfig.tagline}</h3>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"

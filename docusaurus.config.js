@@ -27,6 +27,7 @@ module.exports = {
       logo: {
         alt: 'Logo',
         src: 'img/logo.svg',
+        srcDark: 'img/logo-dark.svg',
       },
       hideOnScroll: true,
       items: [
@@ -51,7 +52,7 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Docs',
+          label: 'Notes',
         },
         {
           href: 'https://github.com/tarunjana',
@@ -92,8 +93,8 @@ module.exports = {
               href: '/contact',
             },
             {
-              label: 'Docs',
-              to: '/docs/intro',
+              label: 'Notes',
+              to: '/notes/intro',
             },
           ],
         },
@@ -130,6 +131,10 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: 'notes',
+          path: './notes',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
