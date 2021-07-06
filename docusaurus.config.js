@@ -163,6 +163,7 @@ module.exports = {
       crossorigin: "anonymous",
     },
   ],
+  themes: ['@docusaurus/theme-live-codeblock'],
   plugins: [
     [
       // For English Blog (2nd Blog)
