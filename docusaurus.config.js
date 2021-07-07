@@ -52,7 +52,7 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Notes',
+          label: 'Docs',
         },
         {
           href: 'https://github.com/tarunjana',
@@ -93,8 +93,8 @@ module.exports = {
               href: '/contact',
             },
             {
-              label: 'Notes',
-              to: '/notes/intro',
+              label: 'Docs',
+              to: '/docs/intro',
             },
           ],
         },
@@ -131,8 +131,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: 'notes',
-          path: './notes',
+          routeBasePath: 'docs',
+          path: './docs',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           remarkPlugins: [math],
