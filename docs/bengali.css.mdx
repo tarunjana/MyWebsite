@@ -1,0 +1,69 @@
+---
+sidebar_position: 2
+title: Bengali.css
+---
+
+# Bengali.css
+
+Unfortunately, the collection of Bengali fonts in [Google Fonts](https://fonts.google.com/?subset=bengali) is 
+not sufficient at all. It includes some beautiful fonts, but they are unable to give professional look to your 
+website.
+
+`Bengali.css` is a small CSS file to implement professional Bengali fonts in any website.
+
+## Installation
+
+Just add the following `<link>` tag in your document `<head>` after loading your main CSS files.
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bengali.css@1.1.1/bengali.min.css">
+```
+
+## Fonts Supported
+
+Currently, two fonts are supported:
+
+1. Noto Sans Bengali
+2. Noto Serif Bengali
+
+:::info
+These fonts are from [Google Noto Fonts](https://www.google.com/get/noto/). Noto is a trademark of Google Inc.
+:::
+
+## Usage
+
+1. To apply **Noto Sans Bengali**, use the class `bengali-sans`.
+2. To apply **Noto Serif Bengali**, use the class `bengali-serif`.
+
+## Example
+
+```html
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Other CSS Files -->
+    <!-- Bengali.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bengali.css@1.1.1/bengali.min.css">
+    <title>Bengali.css</title>
+</head>
+<body>
+    <section class="bengali-serif">আমি বাংলায় গান গাই...</section>
+</body>
+</html>
+```
+
+## Contributing
+
+1. GitHub : [Bengali.css](https://github.com/tarunjana/Bengali.css)
+2. NPM : [Bengali.css](https://www.npmjs.com/package/bengali.css)
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to 
+change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
