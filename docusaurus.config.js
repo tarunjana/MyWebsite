@@ -166,7 +166,7 @@ module.exports = {
   themes: ['@docusaurus/theme-live-codeblock'],
   plugins: [
     [
-      // For English Blog (2nd Blog)
+      // English Blog (2nd Blog)
       '@docusaurus/plugin-content-blog',
       {
         id: 'english-blog',
@@ -181,6 +181,7 @@ module.exports = {
         rehypePlugins: [katex],
       },
     ],
+    // Ideal Image
     [
       '@docusaurus/plugin-ideal-image',
       {
@@ -188,6 +189,35 @@ module.exports = {
         max: 600,
         min: 500,
         steps: 2,
+      },
+    ],
+    // PWA
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/img/Tarun-Jana.jpg',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json',
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: 'rgb(37, 194, 160)',
+          },
+        ],
       },
     ],
   ],

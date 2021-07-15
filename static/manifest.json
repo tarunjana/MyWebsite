@@ -1,0 +1,36 @@
+{
+    "short_name": "Tarun Jana",
+    "name": "Tarun Jana",
+    "icons": [
+        {
+            "src": "/pwa/android-chrome-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/pwa/android-chrome-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/",
+    "background_color": "#25c2a0",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#25c2a0",
+    "shortcuts": [
+        {
+            "name": "Bengali Blog",
+            "short_name": "Bengali Blog",
+            "description": "Bengali Blog of Tarun Jana",
+            "url": "/bn"
+        },
+        {
+            "name": "English Blog",
+            "short_name": "English Blog",
+            "description": "English Blog of Tarun Jana",
+            "url": "/en"
+        }
+    ],
+    "description": "Personal Website of Tarun Jana"
+}
